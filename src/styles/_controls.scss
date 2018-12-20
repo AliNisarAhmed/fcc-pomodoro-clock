@@ -1,0 +1,27 @@
+.controls {
+  width: 50%;
+  margin-top: 3rem;
+  display: flex;
+}
+
+#start_stop,
+#reset {
+  background: transparent;
+  font-size: 3rem;
+  color: tomato;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+  }
+
+  &:active {
+    transform: scale(1.2);
+  }
+}
+
+#start_stop {
+  margin-right: auto;
+}

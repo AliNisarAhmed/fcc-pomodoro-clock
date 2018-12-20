@@ -1,0 +1,20 @@
+.timerSettings {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-right: 3rem;
+  }
+}
+
+#session-label,
+#break-label {
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
