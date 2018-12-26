@@ -2,6 +2,10 @@
   width: 50%;
   margin-top: 3rem;
   display: flex;
+
+  @media screen and (max-width: 600px) {
+    width: 85%;
+  }
 }
 
 #start_stop,

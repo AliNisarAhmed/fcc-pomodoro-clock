@@ -53,6 +53,8 @@ class App extends React.Component {
           timerSession={this.state.timerSession}
           timerBreak={this.state.timerBreak}
           currentTimer={this.state.currentTimer}
+          sessionTime={this.state.sessionTime}
+          breakTime={this.state.breakTime}
         />
         <Controls
           handleStartTimer={this.handleStartTimer}

@@ -1,0 +1,12 @@
+.visual {
+  margin-top: 2rem;
+  width: 30rem;
+  border: 5px solid white;
+  height: 4rem;
+
+  &__inner {
+    transition: all 0.4s;
+    height: 3rem;
+    background: rgb(235, 84, 58);
+  }
+}

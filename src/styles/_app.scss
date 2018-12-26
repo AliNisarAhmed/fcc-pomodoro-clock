@@ -1,17 +1,20 @@
 .app {
   display: flex;
-  min-width: 300px;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  width: 50vw;
-  height: 90vh;
+  width: 85%;
+  height: 100vh;
   margin: 0 auto;
   text-align: center;
-  
-& h1 {
+
+  & h1 {
     color: tomato;
     font-size: 4rem;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: 600px) {
+      margin-top: 2rem;
+    }
   }
 }
